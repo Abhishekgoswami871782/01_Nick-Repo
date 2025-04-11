@@ -55,3 +55,34 @@ console.log(typeof scoreValeue)
 
 console.log(typeof myFunction);
 
+
+//**************************************************//
+//****************** Stack, Heap, * ****************//
+
+
+//stack (primitive )
+//Heap (non primitive)
+
+let myYOutubename = "hiteshchoudharydotcom"
+
+let anothername = myYOutubename
+anothername = "chaiaurcode"
+
+console.log(myYOutubename);
+console.log(anothername);
+
+
+let userOne = {
+
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.emil = "hitesh@google.cm"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
