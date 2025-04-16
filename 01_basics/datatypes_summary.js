@@ -6,8 +6,8 @@
  // boolearn,
  // null, 
  // undefined,
- // Symbol
- // BigInt
+ // Symbol,
+ // BigInt,
 
 
  const score = 100
@@ -51,7 +51,7 @@ console.log("hello world");
 
 console.log(typeof outsideTemp);
 
-console.log(typeof scoreValeue)
+console.log(typeof scoreValeue);
 
 console.log(typeof myFunction);
 
